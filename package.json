@@ -1,0 +1,23 @@
+{
+  "name": "book-project",
+  "version": "1.0.0",
+  "description": "phase 1 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bosofisan/book-project.git"
+  },
+  "keywords": [
+    "book",
+    "project"
+  ],
+  "author": "Lulu Osofisan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bosofisan/book-project/issues"
+  },
+  "homepage": "https://github.com/bosofisan/book-project#readme"
+}

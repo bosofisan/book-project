@@ -1,0 +1,34 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "reviews": [
+          {
+            "id": 1,
+            "rating": 4,
+            "comment": "Great book! Really enjoyed it."
+          },
+          {
+            "id": 2,
+            "rating": 5,
+            "comment": "One of my all-time favorites."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "reviews": [
+          {
+            "id": 1,
+            "rating": 5,
+            "comment": "Magical adventure! Loved every moment."
+          }
+        ]
+      }
+    ]
+  }
+  
