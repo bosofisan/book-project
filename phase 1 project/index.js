@@ -14,7 +14,7 @@ function fetchBooks() {
         const bookElement = createBookElement(book);
         mainElement.appendChild(bookElement);
         // Fetch reviews for the book
-        book,reviews.forEach(review => {
+        book.reviews.forEach(review => {
           const reviewItem = document.createElement('li');
           reviewItem.textContent = review.comment;
           bookElement.querySelector('.reviews').appendChild(reviewItem);
@@ -33,7 +33,9 @@ function createBookElement(book) {
   bookElement.dataset.id = book.id;
   bookElement.innerHTML = `
     <h2>${book.title}</h2>
+    <img src="${book.image}" alt="${book.title} cover">
     <p>Author: ${book.author}</p>
+    <p>Synopsis: ${book.synopsis}</p>
     <p>Reviews:</p>
     <ul class="reviews"></ul>
     <textarea class="comment-input" placeholder="Add a comment"></textarea>
@@ -41,33 +43,6 @@ function createBookElement(book) {
   `;
   return bookElement;
 }
-
-// function fetchBookReviews(bookId, bookElement) {
-//   const REVIEWSAPIURL = `http://localhost:3000/books/${bookId}/reviews`;
-//   fetch(REVIEWSAPIURL)
-//     .then(response => {
-//       if (!response.ok) {
-//         throw new Error('Network response was not ok');
-//       }
-//       return response.json();
-//     })
-//     .then(data => {
-//       const reviewsList = bookElement.querySelector('.reviews');
-//       if (data && data.length > 0) {
-//         data.forEach(review => {
-//           const reviewItem = document.createElement('li');
-//           reviewItem.textContent = review.comment;
-//           reviewsList.appendChild(reviewItem);
-//         });
-//       } else {
-//         reviewsList.innerHTML = `<li>No reviews available</li>`;
-//       }
-//     })
-//     .catch(error => {
-//       console.error('There was a problem with your fetch operation:', error);
-//     });
-// }
-
 function addComment(bookElement) {
   const commentInput = bookElement.querySelector('.comment-input');
   const commentText = commentInput.value.trim();
