@@ -5,18 +5,11 @@
         "title": "The Hobbit",
         "author": "J.R.R. Tolkien",
         "synopsis": "The Hobbit is set in Middle-earth and follows home-loving Bilbo Baggins, the hobbit of the title, who joins the wizard Gandalf and the thirteen dwarves of Thorin's Company, on a quest to reclaim the dwarves' home and treasure from the dragon Smaug.",
-        "image": "https://i0.wp.com/stonesoup.com/wp-content/uploads/2018/05/2018-6-The-Hobbit.jpg?resize=306%2C500&ssl=1",
+        "image": "Images/hobit.png",
+        "rating": 8,
         "reviews": [
-          {
-            "id": 1,
-            "rating": 4,
-            "comment": "Great book! Really enjoyed it."
-          },
-          {
-            "id": 2,
-            "rating": 5,
-            "comment": "One of my all-time favorites."
-          }
+          "Great book! Really enjoyed it.",
+          "One of my favorite books"
         ]
       },
       {
@@ -24,13 +17,12 @@
         "title": "Harry Potter and the Sorcerer's Stone",
         "author": "J.K. Rowling",
         "synopsis": "11 year old Harry Potter receives a letter saying that he is invited to attend Hogwarts, school of witchcraft and wizardry. He then learns that a powerful wizard and his minions are after the sorcerer’s stone that will make this evil wizard immortal and undefeatable. Harry decides to go after the sorcerer’s stone before the wizard reaches it, but his loyal friends, Hermione and Ron don’t let Harry face this danger alone.",
-        "image": "https://m.media-amazon.com/images/I/519XJDItIDL._SY445_SX342_.jpg",
+        "image": "Images/sorcer.png",
+        "rating": 10,
         "reviews": [
-          {
-            "id": 1,
-            "rating": 5,
-            "comment": "Magical adventure! Loved every moment."
-          }
+          "Magical adventure! Loved every moment.",
+          "Harry and his friends make me want to be a wizard",
+          "Excited to read the next book in the series!"
         ]
       },
       {
@@ -38,18 +30,12 @@
         "title": "It Ends With Us",
         "author": "Colleen Hoover",
         "synopsis": "The novel tells the story of Lily Bloom, a young woman from an abusive home who struggles to find her way in the world without recreating the patterns of violence from her youth.",
-        "image": "https://m.media-amazon.com/images/I/813aV273-rL._SL1500_.jpg",
+        "image": "Images/ends with us.png",
+        "rating": 6.5,
         "reviews": [
-          {
-            "id": 1,
-            "rating": 4.5,
-            "comment": "Such a great book. It is emotional, thought provoking, and beautiful."
-          },
-          {
-            "id": 2,
-            "rating": 5,
-            "comment": "Real page turner. Couldn't put it down once I started."
-          }
+          "Such a great book. It is emotional, thought provoking, and beautiful.",
+          "The book was very well written",
+          "This book really gets you in your feels and makes you think"
         ]
       },
       {
@@ -57,23 +43,11 @@
         "title": "The Alchemist",
         "author": "Paulo Coelho",
         "synopsis": "The Alchemist (1988) follows the story of a young Andalusian shepherd, who travels to the pyramids of Egypt to find a treasure he has recurrently dreamed about. On his journey, he has to overcome multiple obstacles – through which he learns valuable life lessons.",
-        "image": "https://m.media-amazon.com/images/I/71zHDXu1TaL._SL1500_.jpg",
+        "image": "Images/alchemist.png",
+        "rating": 6,
         "reviews": [
-          {
-            "id": 1,
-            "rating": 4,
-            "comment": "It had some good analogy and was thought provoking"
-          },
-          {
-            "id": 2,
-            "rating": 3,
-            "comment": "Good book, but I think the ending is a betrayal"
-          },
-          {
-            "id": 3,
-            "rating": 5,
-            "comment": "A timeless classic of self-discovery"
-          }
+          "It had some good analogy and was thought provoking",
+          "Everyone should read this book. So many lessons that you could apply to your real life in here"
         ]
       },
       {
@@ -81,25 +55,13 @@
         "title": "The Secrets We Kept",
         "author": "Lara Prescott",
         "synopsis": "The Secrets We Kept by Lara Prescott is a historical fiction novel about two CIA secretaries who are tasked with smuggling Doctor Zhivago out of the Soviet Union during the Cold War. The book is inspired by the real-life CIA plot to use the love story of Doctor Zhivago to infiltrate the Soviet Union.",
-        "image": "https://m.media-amazon.com/images/I/81zN2gWG-XL._SL1500_.jpg",
+        "image": "Images/secrets.png",
+        "rating": 8.5,
         "reviews": [
-          {
-            "id": 1,
-            "rating": 3,
-            "comment": "Awkward, yet interesting"
-          },
-          {
-            "id": 2,
-            "rating": 5,
-            "comment": "Such a great read"
-          },
-          {
-            "id": 3,
-            "rating": 5,
-            "comment": "An exceptional gem!"
-          }
+          "Awkward, yet interesting",
+          "Definately a page turner",
+          "I'm not a huge history fan, but I enjoyed the plot/storyline"
         ]
       }
     ]
-  }
-  
+}
